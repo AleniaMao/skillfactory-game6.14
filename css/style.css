@@ -1,0 +1,27 @@
+.page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat(6, 75px);
+    grid-gap: 0.1vw;
+}
+.grid-item {
+    min-height: 50px;
+    background-color: orange;
+}
+.btn {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
+#button-reload {
+  display: none;
+}
